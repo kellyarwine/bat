@@ -2,8 +2,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MockIo implements Io {
-  public List output;
-  public ArrayList<String> input;
+  private List output;
+  private ArrayList<String> input;
 
   public MockIo(ArrayList<String> input) {
     this.input = input;

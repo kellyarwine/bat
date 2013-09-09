@@ -1,9 +1,11 @@
 public class Game {
+  public Io io;
+
   public Game(Io io) {
-    io.out("Welcome to the game!");
+    this.io = io;
   }
 
-  public static void main(String[] args) {
-    new Game(new SystemIo());
+  public void start() {
+    io.out("Welcome to the game!");
   }
 }

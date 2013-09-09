@@ -15,6 +15,14 @@ public class Game {
     io.out(MESSAGES.get(welcome));
   }
 
+  public void play() {
+//    ask question
+//    get response
+//    store response
+//    check if game over
+//    deliver feedback
+  }
+
   public static enum MessageType {
     WELCOME, ASK_QUESTION
   }

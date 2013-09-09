@@ -5,8 +5,9 @@ import java.util.Map;
 
 public class Game {
   public Io io;
-  private ArrayList<String> turnHistory;
+  public ArrayList<String> turnHistory;
   public static final Map<Enum, String> MESSAGES = createMessagesMap();
+  public static final int TURN_LIMIT = 6;
 
   public Game(Io io) {
     this.io = io;
@@ -18,11 +19,12 @@ public class Game {
   }
 
   public void play() {
-    displayAskQuestionMessage();
-    String response = getUserResponse();
-    storeResponse(response);
-//    deliver feedback
-//    check if turn limit reached
+    while (turnHistory.size() < TURN_LIMIT) {
+      displayQuestion();
+      String response = getUserResponse();
+      storeResponse(response);
+  //    deliver feedback
+    }
   }
 
   public void displayWelcomeMessage() {
@@ -30,7 +32,7 @@ public class Game {
     io.out(MESSAGES.get(welcome));
   }
 
-  public void displayAskQuestionMessage() {
+  public void displayQuestion() {
     Enum askQuestion = MessageType.ASK_QUESTION;
     io.out(MESSAGES.get(askQuestion));
   }

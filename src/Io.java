@@ -18,10 +18,6 @@ public class Io {
     return output;
   }
 
-  public List getInput() {
-    return input;
-  }
-
   public String in() {
     String message = input.get(0);
     input.remove(0);

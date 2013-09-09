@@ -67,10 +67,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Io.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Io.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Io.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="19" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
+            <state line="18" column="3" selection-start="354" selection-end="354" vertical-scroll-proportion="0.53979236">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,10 +78,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IoTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="IoTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/IoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="25" selection-start="475" selection-end="475" vertical-scroll-proportion="0.9204152">
+            <state line="28" column="25" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,8 +99,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Io.java" />
         <option value="$PROJECT_DIR$/test/IoTest.java" />
+        <option value="$PROJECT_DIR$/src/Io.java" />
       </list>
     </option>
   </component>
@@ -312,7 +312,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32964602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32964602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -384,18 +384,18 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Io.java">
+    <entry file="file://$PROJECT_DIR$/test/IoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="19" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
+        <state line="28" column="25" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/IoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Io.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="25" selection-start="475" selection-end="475" vertical-scroll-proportion="0.9204152">
+        <state line="18" column="3" selection-start="354" selection-end="354" vertical-scroll-proportion="0.53979236">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

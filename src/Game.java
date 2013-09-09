@@ -20,7 +20,7 @@ public class Game {
   public void play() {
     displayAskQuestionMessage();
     String response = getUserResponse();
-
+    storeResponse(response);
 //    deliver feedback
 //    check if turn limit reached
   }
@@ -37,6 +37,10 @@ public class Game {
 
   private String getUserResponse() {
     return io.in();
+  }
+
+  private void storeResponse(String response) {
+    turnHistory.add(response);
   }
 
   public static enum MessageType {

@@ -32,5 +32,6 @@ public class GameTest {
     game.play();
     expectedResult.add(game.MESSAGES.get(Game.MessageType.ASK_QUESTION));
     assertEquals(expectedResult, io.getOutput());
+    assertEquals("true", io.getOutput());
   }
 }

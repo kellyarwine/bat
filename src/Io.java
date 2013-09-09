@@ -3,10 +3,10 @@ import java.util.List;
 
 public class Io {
   public List output;
-  public List input;
+  public ArrayList<String> input;
 
-  public Io() {
-//    this.input = input;
+  public Io(ArrayList<String> input) {
+    this.input = input;
     this.output = new ArrayList<String>();
   }
 
@@ -16,5 +16,15 @@ public class Io {
 
   public List getOutput() {
     return output;
+  }
+
+  public List getInput() {
+    return input;
+  }
+
+  public String in() {
+    String message = input.get(0);
+    input.remove(0);
+    return message;
   }
 }

@@ -19,6 +19,9 @@ public class GameTest {
   @Test
   public void welcomeMessage() {
     game.start();
-    assertEquals("Welcome to the game!", io.getOutput().get(0));
+    Enum welcome = Game.MessageType.WELCOME;
+    String expectedResult = game.MESSAGES.get(welcome);
+    String actualResult = (String)io.getOutput().get(0);
+    assertEquals(expectedResult, actualResult);
   }
 }

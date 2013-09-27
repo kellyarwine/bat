@@ -1,0 +1,25 @@
+send java server a routes file and public folder...
+
+welcome -> tweet, question number
+
+question/0 -> answer, question number
+question/0/answer/0 or 1 -> tweet, question number
+
+question/1
+question/1/answer/0 or 1
+
+question/2
+question/2/answer/0 or 1
+
+question/3
+question/3/answer/0 or 1
+
+question/4
+question/4/answer/0 or 1
+
+question/5
+question/5/answer/0 or 1
+
+results
+
+***index is size of turn_history***

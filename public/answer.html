@@ -1,0 +1,28 @@
+<html>
+<head>
+    <link href="stylesheets/bat.css" rel="stylesheet" type="text/css">
+    <title>
+        BAT
+    </title>
+</head>
+<body>
+<img src="images/{ %image% }" alt="Angry Category 1">
+    <h2>
+        { %answer% }
+
+    </h2>
+    <br>
+    <h3>
+        { %tweeter% }
+    </h3>
+    <h3 id="score">
+        Score: { %score% }
+    </h3>
+<form name="question_number" action="/question" method="POST">
+        <input type="hidden" name="question" value="{ %question% }">
+        <input type="hidden" name="score" value="{ %score% }">
+        <input type="submit" class="btn-style" value="Next Question">
+    </form>
+    <img alt="BAT" id="bat" src="images/angry_bird.png" />
+</body>
+</html>

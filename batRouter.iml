@@ -17,6 +17,8 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" exported="" name="Server" level="project" />
+    <orderEntry type="library" name="responsebuilder" level="project" />
   </component>
 </module>
 

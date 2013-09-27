@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <link href="stylesheets/bat.css" rel="stylesheet" type="text/css">
+    <title>
+      BAT
+    </title>
+  </head>
+  <body>
+    <h2>
+      Is this a Brian tweet?
+    </h2>
+    <h3 id="score">
+        Score: { %score% }
+    </h3>
+      <div id="container">
+        <img id="tweet_bubble" alt="tweet-bubble" src="images/tweet_bubble.png" />
+        <p id="tweet_bubble_text">
+            { %tweet% }
+        </p>
+      </div>
+        <form name="truefalse" action="/answer" method="POST">
+            <br>
+            <input type="hidden" name="question" value="{ %question% }">
+            <input type="hidden" name="tweet" value="{ %tweet% }">
+            <input type="hidden" name="score" value="{ %score% }">
+            <input type="radio" name="user_guess" value="true " checked>True<br>
+            <input type="radio" name="user_guess" value="false">False<br>
+            <br>
+            <input class="btn-style" type="submit">
+        </form>
+    <img alt="BAT" id="bat" src="images/angry_bird.png" />
+  </body>
+</html>

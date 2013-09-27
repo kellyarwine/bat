@@ -1,0 +1,112 @@
+body {
+    text-align: center;
+    background-color: #a6e0ed;
+    font-family: "Geeza Pro";
+}
+
+h1 {
+    font-size: 8em;
+    color: #532482;
+}
+
+h2 {
+    font-size: 3em;
+    color: darkblue;
+    font-family: "Noteworthy"
+}
+
+h3 {
+    font-size: 2em;
+    color: red;
+    font-family: "Noteworthy"
+}
+
+
+input {
+    font-size: 3em;
+    color: darkblue;
+    font-family: "Noteworthy"
+}
+
+ul {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+}
+
+a {
+    font-size: 2em;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    width: 500px;
+    position: fixed;
+    top: 75%;
+    left: 50%;
+    margin-left: -250px;
+}
+
+#container {
+    position: relative;
+    height: 329px;
+    width: 776px;
+    top: 5%;
+    left: 50%;
+    margin-left: -413px;
+}
+
+#tweet_bubble {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#tweet_bubble_text {
+    position: absolute;
+    font-size: 24pt;
+    text-align: left;
+    top: 10;
+    left: 155;
+}
+
+#bat {
+    font-size: 12pt;
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    z-index: -1;
+}
+
+#score {
+    position: absolute;
+    top: 0em;
+    right: 1em;
+    z-index: 0;
+}
+
+#big_bat {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    margin-left: -374px;
+    margin-top: -204px;
+}
+
+.btn-style{
+	border : solid 1px #e61a07;
+	border-radius : 3px;
+	moz-border-radius : 3px;
+	-webkit-box-shadow : 0px 0px 2px rgba(0,0,0,1.0);
+	-moz-box-shadow : 0px 0px 2px rgba(0,0,0,1.0);
+	box-shadow : 0px 0px 2px rgba(0,0,0,1.0);
+	font-size : 20px;
+	color : #ffffff;
+	padding : 5px 17px;
+	background-color : #e60f07;
+
+}
